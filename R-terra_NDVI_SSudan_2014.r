@@ -1,3 +1,20 @@
+# ============================================================================
+# Multi-temporal NDVI of South Sudan in R (terra) - one script per year.
+#
+# R companion to the author's South Sudan (Sudd Wetlands) environmental-
+# analytics study. The related peer-reviewed article applies GRASS GIS image
+# segmentation (these R/terra scripts compute NDVI for the same study area):
+#   Lemenkova, P. (2023). Image Segmentation of the Sudd Wetlands in South Sudan
+#   for Environmental Analytics by GRASS GIS Scripts.
+#   Analytics, 2(3), 745-780.
+#   DOI:    https://doi.org/10.3390/analytics2030040
+#   Zenodo: https://doi.org/10.5281/zenodo.8367885
+#   HAL:    https://hal.science/hal-04214295v1
+#   SSRN:   https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4579189
+#
+# Author: Polina Lemenkova  |  ORCID: 0000-0002-5759-1089
+# ============================================================================
+
 # Computing vegetation indices
 library(terra)
 library(RColorBrewer)
